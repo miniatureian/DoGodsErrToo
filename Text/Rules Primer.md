@@ -24,6 +24,7 @@ Do Gods Err Too is a board game about teaming up with allies to fight singularly
      - Characters may allocate resources to distract or discard their own scourge or to discard any scourge in the shared attacks.
      - A character may pay for some or all of the costs for a scourge in the shared area.
      - Distract attacks will not trigger this round at all.
+     - Characters may pay the upgrade cost for one Loci, turning that card over to it's second side.
 5. Suffer 
      - Move the monster according to the top scourge in the behavior pile. Any character the moster moves past suffers the attack showing on that card.
      - Each character suffers the attack from their assigned scourge unless it was distracted or discarded.
@@ -33,13 +34,13 @@ Do Gods Err Too is a board game about teaming up with allies to fight singularly
 
 ## Assets
 1. Basic elements
-    - fire - yellow
-    - water - blue
-    - earth - green
+    - fire - yellow (_opposes Blood_)
+    - water - blue (_opposes Bone_)
+    - earth - green (_opposes Spirit_)
 2. Living elements
-    - Bone - white 
-    - Spirit - purple
-    - Blood - red
+    - Bone - white (_earth + fire_)
+    - Spirit - purple (_fire + water_)
+    - Blood - red (_water + earth_)
 3. Conditions\
 if a monster suffers a condition that creates an element, the primary player chooses the character to gain that element instead.
     - Burn - gain fire and threat
@@ -50,12 +51,22 @@ if a monster suffers a condition that creates an element, the primary player cho
     - Petrified - gain Bone. Discard half the threat this entity assigns its enemies
     - Curse - place on a Locus or scourge. It cannot be used. (Scourge may still be discarded by characters)
     - Regenerate - remove 1 damage during Kindling
-    - Shield - Increase Toughness by 1 and discard during Kindling
     - Thorny - When assigned threat by an enemy, assign 1 threat to that enemy.
 4. Other Assets
+    - Shield - Increase Toughness by 1 and discard during Kindling
     - Movement - move across orthoganal lines on map (not diagonally) during Strive. Characters may move through each other, but not end on the same stance.
     - Cleanse - remove one condition
     - Share - this asset must be given to an ally
     - Heal - remove damage, default value is 1 if unspecified
     - Scarce - This asset is only created if the character has none of it. This is usually a modifier on an element.
+
+## Scourge Deck
+A single scourge card has several parts and the scourge deck sets the time pressure for the scenerio.
+ - In the center, the attack is the number of threat and any effects gained by characters that suffer from that attack. 
+ - A rotational direction and movement number indicate how many segments of the map's exterior ring the monster moves. This is only used if the scourge is the top card of the behavior deck. Draw an imaginary line from the leading edge of the monster's movement to the center of the map. Any characters in sections crossed by that line suffer the attack.
+ - A distract section lists the assets required for the monster to skip performing the attack. This line is only usable if the scourge is assigned to a single player.
+ - A discard section lists the assets required for the scourge to be placed in the scourge discard pile. This line is used in two ways: a character may pay this if the scourge is assigned to that player, or any character may pay this if the scourge is in the shared attacks zone.
+ - If neither cost is paid during Disrupt, the attack will trigger during Suffer. If assigned to a single character, the attack will target that character. If assigned to the shared attacks zone, the attack will target all characters. 
+ - During Kindling, each scourge currently assigned to a character moves to the shared attacks zone. 
+ - If scourge need to be handed out while the scourge deck is empty, shuffle the scourge discard pile and use it as the new scourge pile. If scourge discard pile is empty too, the game is a loss for the characters.
 

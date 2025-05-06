@@ -1,0 +1,32 @@
+[
+    {
+        "Name":"LocusName",
+        "Type":"LocusType",
+        "Color":"LocusColor",
+        "Ability1":{
+            "Input":{"fire":1},
+            "Output":{"water":1,"earth":1}
+        },
+        "Ability2":{
+            "Input":{"water":1},
+            "Output":{"fire":1,"earth":1}
+        },
+        "Ability3":{
+            "Input":{"earth":1},
+            "Output":{"fire":1,"water":1}
+        },
+        "Upgrade":{"Bone":2},
+        "Ability4":{
+            "Input":{"fire":2},
+            "Output":{"water":2,"earth":2}
+        },
+        "Ability5":{
+            "Input":{"water":2},
+            "Output":{"fire":2,"earth":2}
+        },
+        "Ability6":{
+            "Input":{"earth":2},
+            "Output":{"fire":2,"water":2}
+        }
+    }
+]
